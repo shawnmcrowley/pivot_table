@@ -26,7 +26,7 @@ const PivotTableComponent = () => {
     const [state, setState] = useState();
 
     return (
-      <div><h2>Pivot Table</h2>
+      <div align="center"><h2>Pivot Table</h2>
       <PivotTableUI
         data={pivotData}
         onChange={(s) => setState(s)}
